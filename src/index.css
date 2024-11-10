@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+
+.hr1{
+    width:auto;
+    height: 1px;
+    background:#ffffff;
+}
+
+.believe-cont::-webkit-scrollbar{
+    width: 2px;
+    background-color: @apply bg-slate-800
+}
+
+.believe-cont::-webkit-scrollbar-thumb{
+    background-color: #00ff97;
+    border-radius: 20px;
+}
+.believe-cont::-webkit-scrollbar-thumb:hover{
+    background-color: #00B86E;
+}
+
+.revealee{
+    position: relative;
+    transform: translateX(-70px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .revealee.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .revealer{
+    position: relative;
+    transform: translateX(70px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .revealer.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+
+}
