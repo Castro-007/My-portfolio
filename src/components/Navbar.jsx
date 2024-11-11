@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import CastroLogo from '../assets/images/compass.png'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import {Link} from 'react-scroll'
 
 
