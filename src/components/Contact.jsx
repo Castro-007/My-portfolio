@@ -46,29 +46,29 @@ const Contact = () => {
             <div className='mb-5 flex  justify-around gap-5'>
             <div>
             <label htmlFor="Name" className='block mb text-lg w-full font-Anek'>First Name</label>
-            <input type="text" name="firstName" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
+            <input type="text" required name="firstName" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
             </div>
 
             <div>
             <label htmlFor="Name" className='block mb text-lg w-full font-Anek'>Last Name</label>
-            <input type="text" name="lastName" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
+            <input type="text" required name="lastName" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
             </div>
             </div>
 
             <div className='flex justify-around gap-5 '>
             <div>
             <label htmlFor="Name" className='block mb text-lg  font-Anek'>Email</label>
-            <input type="email" name="email" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
+            <input type="email" required name="email" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
             </div>
             <div>
             <label htmlFor="Name" className='block mb text-lg  font-Anek'>Phone</label>
-            <input type="tel" name="Phonenumber" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
+            <input type="tel" required name="Phonenumber" className='rounded-lg border-[1px] border-[#00ff97] h-[35px] bg-transparent outline-1  px-2 py-1 ' id="" />
             </div>
             </div>
 
             <div className='my-7 ml-4'>
             <label htmlFor="Name" className='block mb text-lg  font-Anek'>Message</label>
-            <textarea type="text" name="message" cols={20} rows={8} className='resize-none rounded-lg border-[1px] border-[#00ff97] w-full h-full bg-transparent outline-1  px-2 py-1 ' id="" />
+            <textarea type="text" required name="message" cols={20} rows={8} className='resize-none rounded-lg border-[1px] border-[#00ff97] w-full h-full bg-transparent outline-1  px-2 py-1 ' id="" />
             </div>
             <Button />
             
