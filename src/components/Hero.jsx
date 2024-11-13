@@ -12,7 +12,7 @@ import Photographproj2 from '../assets/images/Photographproj3.jpeg'
 import Productphot2 from '../assets/images/productphot22.jpeg'
 import Searchmarket1 from '../assets/images/Searchmarket1.jpeg'
 import Swisstaler from '../assets/images/Swisstaler.jpeg'
-import Pubadvert3 from '../assets/images/pubadvert3.jpeg'
+import Pubadvert3 from '../assets/images/Pubadvert3.jpeg'
 
 
 
