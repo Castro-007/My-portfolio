@@ -3,6 +3,14 @@ import Contact from './Contact'
 import Skills from './Skills'
 import Accordion from './Accordion'
 import Project from './Project'
+import Html5 from '../assets/images/html-5.png'
+import CSS3 from '../assets/images/css-3.png'
+import DAISYUI from '../assets/images/daisyui_.png'
+import JAVASCRIPT from '../assets/images/js.png'
+import TAILWIND from '../assets/images/tailwindcss_ .png'
+import REACT from '../assets/images/react.svg'
+import NODEJS from '../assets/images/nodejs.png'
+
 
 const MainHero = () => {
   function relive() {
@@ -107,31 +115,31 @@ const MainHero = () => {
 
         <div className='overflow-x-scroll flex lg:justify-center gap-10 py-4 items-center px-6'>
           <Skills
-          skillimg="./src/assets/images/html-5.png"
+          skillimg={Html5}
           skilltxt="HTML5"
           /> 
           <Skills
-          skillimg="./src/assets/images/css-3.png"
+          skillimg={CSS3}
           skilltxt="CSS3"
           />
           <div className="opacity-20 hover:opacity-100 transition-[.3s] cursor-pointer bg-white p-4 text-black">
-            <img src="./src/assets/images/daisyui_.png" className='pb-4 w-[100px] opacity-200' alt="" />
+            <img src={DAISYUI} className='pb-4 w-[100px] opacity-200' alt="" />
             <p className='text-center text-xl font-Nunito uppercase font-semibold '>DaisyUI</p>
           </div>
           <Skills
-          skillimg="./src/assets/images/js.png"
+          skillimg={JAVASCRIPT}
           skilltxt="Javascript"
           />
           <Skills
-          skillimg="./src/assets/images/tailwindcss_ (2).png"
+          skillimg={TAILWIND}
           skilltxt="tailwindcss"
           />
           <Skills
-          skillimg="./src/assets/images/react.svg"
+          skillimg={REACT}
           skilltxt="react"
           />
           <Skills
-          skillimg="./src/assets/images/nodejs.png"
+          skillimg={NODEJS}
           skilltxt="Nodejs"
           />
         </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import CastroLogo from '../assets/images/compass.png'
 import { FaBars } from 'react-icons/fa'
 import {Link} from 'react-scroll'
+import { navLinks } from '../utils'
 
 
 const Navbar = () => {
@@ -23,14 +24,19 @@ const Navbar = () => {
     </div> 
     <div>
         <nav>
-            
+             
             <ul  className='hidden lg:flex xl:flex  text-white font-Nunito text-xl justify-around gap-8 items-center navigate'>
-                <li className='hover:text-[#00ff97] cursor-pointer'><a href="/index.html">HOME</a></li>
-                <li className='hover:text-[#00ff97] cursor-pointer'><Link to="about" spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link></li>
-                <li className='hover:text-[#00ff97] cursor-pointer'><Link to="education" spy={true} smooth={true} offset={-70} duration={500}>EDUCATION</Link></li>
-                <li className='hover:text-[#00ff97] cursor-pointer'><Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>PROJECT</Link></li>
-                <li className='hover:text-[#00ff97] cursor-pointer'><Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link></li>
-                
+            <li className='hover:text-[#00ff97] cursor-pointer'><a href="/index.html">HOME</a></li>
+              {
+                navLinks.map((x) => (
+                  <div key={x.id} >
+                    
+                                
+                <li className='hover:text-[#00ff97] cursor-pointer'><Link to={x.to} spy={true} smooth={true} offset={-70} duration={500}>{x.name}</Link></li>
+                  </div>
+                ))
+              }
+     
             </ul>
            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='lg:hidden xl:hidden text-[#00ff97] block'>
             <FaBars />
@@ -40,11 +46,15 @@ const Navbar = () => {
           style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}
           >
 
-            <a href='/index.html' className='text-center bg-black text-white font-Nunito text-xl list-none transition-all'>HOME</a>
-            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to="about" spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
-            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to="education" spy={true} smooth={true} offset={-70} duration={500}>EDUCATION</Link>
-            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to="projects" spy={true} smooth={true} offset={-70} duration={500}>PROJECT</Link>
-            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to="contact" spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link>
+              {
+                navLinks.map((x) => (
+                  <div key={x.id}>
+                              <a href='/index.html' className='text-center bg-black text-white font-Nunito text-xl list-none transition-all'>HOME</a>
+            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to={x.to} spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
+            
+                  </div>
+                ))
+              }
           </div>
 
         </nav>

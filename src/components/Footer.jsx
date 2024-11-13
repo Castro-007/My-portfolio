@@ -26,10 +26,10 @@ const Footer = () => {
                         </form>
           </div>
           <div className='leading-8'>
-            <a href='#' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Github</a>
-            <a href='#' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Reddit</a>
-            <a href='#' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>LinkedIn</a>
-            <a href='#' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Twitter</a>
+            <a href='https://github.com/Castro-007' target='_blank' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Github</a>
+            <a href='https://www.reddit.com/u/CastroOO7/s/MHJBA0lMfO' target='_blank' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Reddit</a>
+            <a href='https://www.linkedin.com/in/sanni-olayinka-8ab944294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>LinkedIn</a>
+            <a href='https://twitter.com/yk_westt' target='_blank' className='font-manrope font-light hover:text-[#00B86E] transition-[.3s] block text-base'>Twitter</a>
             
           </div>
           <div className='leading-8'>

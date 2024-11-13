@@ -1,6 +1,9 @@
 import React from 'react'
 import ProjCards from './ProjCards'
-
+import ELITE from '../assets/images/eliteshott1.png'
+import LOPUBLI from '../assets/images/lopubli.png'
+import RETAIL from '../assets/images/retailssa.png'
+import JSCLOCK from '../assets/images/jsclock.png'
 const Project = () => {
 
   return (
@@ -12,22 +15,22 @@ const Project = () => {
         
 
           <ProjCards
-          imgs="./src/assets/images/eliteshott1.png"
+          imgs= {ELITE}
           link ="#"
           text ="ELITESTACK - Crypto Trading Platform"
           />
           <ProjCards
-          imgs="./src/assets/images/lopubli.png"
+          imgs={LOPUBLI}
           link ="https://lopublication.onrender.com/"
           text ="LOPUBLICATIONS - PUBLISHING WEBPAGE"
           />
           <ProjCards
-          imgs="./src/assets/images/retailssa.png"
+          imgs={RETAIL}
           link ="https://retailandall.onrender.com/"
           text ="RETAIL&ALL - An e-commerce webpage that elevates fashion"
           />
           <ProjCards
-          imgs="./src/assets/images/jsclock.png"
+          imgs={JSCLOCK}
           link ="https://javascript-clock-lilac.vercel.app/"
           text ="JAVASCRIPT CLOCK - A Javascript Clock that works with the local time and auto-changes text whenever the period of time changes from sunrise to sunset "
           />
