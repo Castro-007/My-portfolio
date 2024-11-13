@@ -10,7 +10,7 @@ import JAVASCRIPT from '../assets/images/js.png'
 import TAILWIND from '../assets/images/tailwindcss_ .png'
 import REACT from '../assets/images/react.svg'
 import NODEJS from '../assets/images/nodejs.png'
-
+import Cv from '../assets/cvfolder/sanniolayinkaresume.pdf'
 
 const MainHero = () => {
   function relive() {
@@ -38,7 +38,7 @@ const MainHero = () => {
       <div className='flex sma:flex-col mda:flex-col justify-around revealer py-5 mb-5 mt-8 text-start'>
         <div className='basis-[30%] sma:mb-3 mda:mb-3'>
         <h1 className='text-2xl font-Nunito mb-8 font text-start self-start'>GET TO KNOW ME </h1>
-        <a href="./src/assets/cvfolder/sanniolayinkaresume.pdf" className='lg:pt-8 ' download="cv portfolio">
+        <a href={Cv} className='lg:pt-8 ' download="cv portfolio">
               <button className='relative px-8 sma:px-2 py-2 rounded-md bg-transparent isolation-auto  z-10 border-2 border-blue-500 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-blue-500 before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700' type="submit">Download My CV!</button>
         </a>
         </div>
