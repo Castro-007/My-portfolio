@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import Design from './Design'
 import Modal from './Modal';
-import photographproj1 from '../assets/images/photographproj1.jpeg'
+import Photographproj1 from '../assets/images/Photographproj1.jpeg'
 import CODE from '../assets/images/code.jpeg'
-import productphot1 from '../assets/images/productphot1.jpeg'
+import Productphot1 from '../assets/images/productphot1.jpeg'
 import UIUX from '../assets/images/UIUX.jpeg'
-import searchmarket2 from '../assets/images/searchmarket2.jpeg'
+import Searchmarket2 from '../assets/images/searchmarket2.jpeg'
 import Blockchain3 from '../assets/images/Blockchain3.jpeg'
 import CODE2 from '../assets/images/code2.jpeg'
 import Photographproj2 from '../assets/images/Photographproj3.jpeg'
 import Productphot2 from '../assets/images/productphot22.jpeg'
-import Searchmarket1 from '../assets/images/searchmarket1.jpeg'
+import Searchmarket1 from '../assets/images/Searchmarket1.jpeg'
 import Swisstaler from '../assets/images/Swisstaler.jpeg'
 import Pubadvert3 from '../assets/images/pubadvert3.jpeg'
 
@@ -156,7 +156,7 @@ The outcome was a well-designed interface that not only met user needs but also 
       <h1 className='text-2xl uppercase tracking-wider mb-8 '>My Various Services</h1>
       <div className='grid place-items-center gap-4 mdaa:grid-cols-2 sma:grid-cols-2  mda:grid-cols-2 grid-cols-3'>
         <Design 
-          img={photographproj1}
+          img={Photographproj1}
           name="Influencer Marketing"
           onClick={() => setShowModal(true)}
         />
@@ -166,7 +166,7 @@ The outcome was a well-designed interface that not only met user needs but also 
           onClick={() => setShowModal2(true)}
         />
         <Design 
-          img={productphot1}
+          img={Productphot1}
           name="Product Photography"
           onClick={() => setShowModal3(true)}
         />
@@ -176,7 +176,7 @@ The outcome was a well-designed interface that not only met user needs but also 
           onClick={() => setShowModal6(true)}
           />
         <Design 
-          img={searchmarket2}
+          img={Searchmarket2}
           name="Search Engine Marketing"
           onClick={() => setShowModal4(true)}
         />
