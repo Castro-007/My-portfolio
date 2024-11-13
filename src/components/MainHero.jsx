@@ -10,7 +10,7 @@ import JAVASCRIPT from '../assets/images/js.png'
 import TAILWIND from '../assets/images/tailwindcss_ .png'
 import REACT from '../assets/images/react.svg'
 import NODEJS from '../assets/images/nodejs.png'
-import Cv from '../assets/cvfolder/sanniolayinkaresume.pdf'
+import Cv from '../assets/cvfolder/sanniolayinkaresume11.pdf'
 
 const MainHero = () => {
   function relive() {
