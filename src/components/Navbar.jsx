@@ -42,17 +42,17 @@ const Navbar = () => {
             <FaBars />
            </button>
 
-          <div className={`absolute xl:hidden top-20 bg-black mt-4 left-0 w-full h-fit flex flex-col gap-5 transform transition-transform ${isMenuOpen ? "opacity-100" :"opacity-0"}`} 
+          <div className={`absolute xl:hidden top-20 bg-black mt-4 left-0 w-full h-fit flex flex-col items-center gap-5 transform transition-transform ${isMenuOpen ? "opacity-100" :"opacity-0"}`} 
           style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}
           >
 
+            <a href='/index.html' className='text-center bg-black text-white font-Nunito text-xl list-none transition-all'>HOME</a>
               {
                 navLinks.map((x) => (
-                  <div key={x.id}>
-                              <a href='/index.html' className='text-center bg-black text-white font-Nunito text-xl list-none transition-all'>HOME</a>
-            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to={x.to} spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link>
+                  <span key={x.id}>
+            <Link className='text-center bg-black text-white font-Nunito text-xl list-none transition-all' to={x.to} spy={true} smooth={true} offset={-70} duration={500}>{x.name}</Link>
             
-                  </div>
+                  </span>
                 ))
               }
           </div>
