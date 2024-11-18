@@ -68,23 +68,23 @@ const Hero = () => {
         setMode: setShowModal2,
         head: 'Web Development',
         imagee:CODE2,
-        text: `This project focused on building responsive and functional websites to deliver an engaging online experience. The aim was to create a user-friendly design, implement robust features, and ensure compatibility across devices.
+        text: `I focus on building responsive and functional websites to deliver an engaging online experience. The aim is always to create a user-friendly design, implement robust features, and ensure compatibility across devices.
 
-The process involved front-end and back-end development, optimizing site performance, and integrating essential tools for functionality. Attention was given to both design and code quality to ensure a seamless user experience.
+The process involves front-end and back-end development, optimizing site performance, and integrating essential tools for functionality. My attention is always given to both design and code quality to ensure a seamless user experience.
 
-The result was a high-performing website that effectively communicated the brand's message, enhanced user interaction, and supported business goals.`
+The results are high-performing website that effectively communicates the brand's message, enhanced user interaction, and supported business goals.`
     },
 
     {
         label: '2',
         mode: showModal,
         setMode:setShowModal,
-        head: 'Photography Influencing',
+        head: 'Influencer Marketing',
         imagee:Photographproj2,
         text: `I focus on leveraging the power of social media influencers to connect brands with their target audiences through authentic content.
-           Inspired by the growing impact of influencers, I developed strategies to identify the right partners, craft engaging campaigns, and execute personalized outreach. The process included setting goals, negotiating contracts,
-            and collaborating to ensure content aligned with brand values. By using data-driven insights, I optimized campaign performance through metrics like engagement and conversion rates, continuously refining strategies for the best results.
-             This highlighted the power of influencer marketing in building brand loyalty and driving meaningful connections.`
+              Inspired by the growing impact of influencers, I developed strategies to identify the right partners, craft engaging campaigns, and execute personalized outreach. The process includes setting goals, negotiating contracts,
+              and collaborating to ensure content aligned with brand values. By using data-driven insights, I optimized campaign performance through metrics like engagement and conversion rates, continuously refining strategies for the best results.
+              This highlighted the power of influencer marketing in building brand loyalty and driving meaningful connections.`
     },
 
     {
@@ -126,11 +126,11 @@ The result was a high-performing website that effectively communicated the brand
         setMode:setShowModal6,
         head: 'UI/UX Development',
         imagee: Pubadvert3,
-        text: `I aimed to create user-friendly and visually appealing interfaces that enhance the overall user experience. The focus was on designing intuitive layouts, optimizing navigation,
-           and ensuring consistency across digital platforms.
-The process involved user research, wireframing, prototyping, and testing to refine designs based on user feedback. The goal was to improve usability, streamline interactions, and deliver a seamless digital experience.
-The outcome was a well-designed interface that not only met user needs but also strengthened brand engagement through a cohesive and enjoyable user experience.`
-    },
+        text: `I aim to create user-friendly and visually appealing interfaces that enhance the overall user experience. The focus is on designing intuitive layouts, optimizing navigation,
+              and ensuring consistency across digital platforms.
+              The process involves user research, wireframing, prototyping, and testing to refine designs based on user feedback. The goal is to improve usability, streamline interactions, and deliver a seamless digital experience.
+              The outcome would be a well-designed interface that not only meet user needs but also strengthened brand engagement through a cohesive and enjoyable user experience.`
+        },
 
 
 ]
@@ -150,6 +150,7 @@ The outcome was a well-designed interface that not only met user needs but also 
           <a href="#" className='text-[#00ff97] text-lg hover:scale-105 transition flex gap-2 items-center'>INSIGHTS <i className="fa-solid fa-arrow-trend-up"></i> </a>
         </div>    
     </div> 
+    <h1 className='pb-5 text-lg font-Nunito text-[#00FF97] px-5 font-light'>Currently a FREELANCE Frontend Engineer <br /> Previously @ <span className='font-semibold'>ThriveOn</span></h1>
     <hr />
 
     <div className='text-white my-6 mb-10 revealee font-manrope px-4'>

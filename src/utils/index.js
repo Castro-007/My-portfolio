@@ -24,4 +24,11 @@
     }
  ]
 
+ export const DesignArr = [
+    {
+        label: '1'
+        
+    }
+ ]
+
 

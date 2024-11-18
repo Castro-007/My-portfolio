@@ -11,6 +11,7 @@ const Navbar = () => {
 
   return (
     <>
+    <div className=''>
     <div className=' flex justify-between items-center px-4 lg:mb-40'>
      <div className=''>
         <a href="/index.html" className='flex justify-between gap-4 items-center'>
@@ -59,6 +60,8 @@ const Navbar = () => {
 
         </nav>
     </div>
+    </div>
+
     </div>
     </>
   )
