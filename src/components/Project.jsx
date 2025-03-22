@@ -2,8 +2,9 @@ import React from 'react'
 import ProjCards from './ProjCards'
 import ELITE from '../assets/images/eliteshott1.png'
 import LOPUBLI from '../assets/images/lopubli.png'
-import RETAIL from '../assets/images/retailssa.png'
+import RETAIL from '../assets/images/Retailallhome.png'
 import JSCLOCK from '../assets/images/jsclock.png'
+import Nike from '../assets/images/Nikeabout.png'
 const Project = () => {
 
   return (
@@ -16,18 +17,23 @@ const Project = () => {
 
           <ProjCards
           imgs= {ELITE}
-          link ="#"
+          link ="https://coinbit-sm4i.onrender.com/"
           text ="ELITESTACK - Crypto Trading Platform"
           />
           <ProjCards
           imgs={LOPUBLI}
-          link ="https://lopublication.onrender.com/"
+          link ="https://lopubliication.onrender.com/"
           text ="LOPUBLICATIONS - PUBLISHING WEBPAGE"
           />
           <ProjCards
           imgs={RETAIL}
-          link ="https://retailandall.onrender.com/"
+          link ="https://retailall.onrender.com/"
           text ="RETAIL&ALL - An e-commerce webpage that elevates fashion"
+          />
+          <ProjCards
+          imgs={Nike}
+          link ="https://nikeokeke-fe72.onrender.com/"
+          text ="An Author Webpage for Nike Okeke where she shares her stories and works to the world "
           />
           <ProjCards
           imgs={JSCLOCK}
