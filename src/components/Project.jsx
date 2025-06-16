@@ -16,9 +16,9 @@ const Project = () => {
         
 
           <ProjCards
-          imgs= {ELITE}
-          link ="https://coinbit-sm4i.onrender.com/"
-          text ="ELITESTACK - Crypto Trading Platform"
+          imgs= ""
+          link =""
+          text =""
           />
           <ProjCards
           imgs={LOPUBLI}
