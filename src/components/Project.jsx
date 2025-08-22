@@ -2,6 +2,7 @@ import React from 'react'
 import ProjCards from './ProjCards'
 import Mirae from '../assets/images/miraeasset.png'
 import LOPUBLI from '../assets/images/lopubli.png'
+import Topklan from '../assets/images/Topklan.png'
 import RETAIL from '../assets/images/Retailallhome.png'
 import JSCLOCK from '../assets/images/jsclock.png'
 import Nike from '../assets/images/Nikeabout.png'
@@ -15,6 +16,11 @@ const Project = () => {
 
         
 
+          <ProjCards
+          imgs= {Topklan}
+          link ="https://topklan.onrender.com/"
+          text ="TOPKLAN ENGINEERING SERVICES - Built a Website for Topklan Engineering services using react, tailwind, nodejs. This provides information on Engineering services and products they offer."
+          />
           <ProjCards
           imgs= {Mirae}
           link ="https://mirae-asset.onrender.com/"
